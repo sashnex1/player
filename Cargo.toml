@@ -1,0 +1,12 @@
+[package]
+name = "untitled1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures-timer = { version = "3", features = ["wasm-bindgen"] }
+log = { version = "0.4", default-features = false }
+ratatui = "0.20.1"
+crossterm = "0.26"
